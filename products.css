@@ -1,0 +1,46 @@
+.content-container {
+  display: grid;
+  grid-template-rows: 10% auto;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-size: 150px;
+  font-family: Optima, sans-serif;
+  font-weight: bold;
+  color: rgb(231, 154, 128);
+}
+
+.products-container {
+  display: grid;
+  padding: 20px 20px 20px 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(2000px, 30%);
+  grid-auto-rows: minmax(2000px, 30%);
+  gap: 20px;
+  overflow-y: scroll;
+}
+
+.item {
+  background-color: cadetblue;
+}
+
+/* 
+each collection is named by category.
+when the app launches, use redux-thunk middleware to dispatch an action which will fetch the data from the firebase.
+at the beginning, get data from all collections. when a link is clicked, redirect and fetch data from just the 
+right collection.
+
+
+
+
+
+
+
+
+
+
+
+
+*/

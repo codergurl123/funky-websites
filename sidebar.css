@@ -1,0 +1,15 @@
+li {
+  list-style-type: none;
+  font-family: Optima, sans-serif;
+}
+
+a.header {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(231, 154, 128);
+}
+
+a.subcategory {
+  font-size: 50px;
+  color: rgb(233, 185, 169);
+}

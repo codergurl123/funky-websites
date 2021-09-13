@@ -1,0 +1,30 @@
+.card-body {
+  display: grid;
+  text-align: center;
+}
+
+.card-title.h5 {
+  font-family: Optima, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.productImage {
+  width: 100%;
+  height: 70%;
+}
+
+p.card-text {
+  font-family: Optima, sans-serif;
+  font-size: 50px;
+}
+
+button.btn.btn-primary {
+  background-color: rgb(233, 185, 169);
+  color: white;
+  border: 0px;
+  font-family: Optima, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  width: 100%;
+}

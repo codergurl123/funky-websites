@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  min-width: 100vw;
+  min-height: 100vh;
+  grid-template-rows: 10% auto;
+  grid-template-columns: auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 15% auto;
+  grid-template-rows: auto;
+  min-height: 100%;
+}
