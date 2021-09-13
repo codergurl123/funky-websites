@@ -1,0 +1,11 @@
+.navbar {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.brand {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: beige;
+}

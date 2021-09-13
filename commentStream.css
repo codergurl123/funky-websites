@@ -1,0 +1,4 @@
+.commentStream {
+  display: flex;
+  flex-direction: row;
+}

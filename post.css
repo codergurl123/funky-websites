@@ -1,0 +1,9 @@
+.PostHeading {
+  display: flex;
+  text-align: left;
+}
+
+.ProfilePic {
+  width: 50;
+  height: 50;
+}
